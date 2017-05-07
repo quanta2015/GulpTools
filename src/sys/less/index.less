@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@import url('variables.less');
+
+html, body {
+    height: 100%
+}
+
+.g-index {
+    display: flex;
+    flex-direction: column;
+
+    .g-hd {
+        background: @gray-light;
+        padding: 5px 10px;
+        color: @body-bg;
+        background: url(../../img/small.png);
+    }
+
+    .g-bd {
+        background: @gray-lighter;
+        padding: 5px 10px;
+        height: 100px;
+        // background: url('../../img/small.png') no-repeat;
+    }
+
+    .g-ft {
+        background: @gray-dark;
+        padding: 5px 10px;
+        color: @body-bg;
+    }
+}
+
